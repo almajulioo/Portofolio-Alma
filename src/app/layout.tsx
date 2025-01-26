@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { twMerge } from 'tailwind-merge';
 import { Footer } from '@/components/Footer';
+import rack from 'public/images/rack.ico';
 
 const inter = Inter({
     subsets: ['latin'],
@@ -12,6 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     title: 'Alma Julio - Backend Developer',
+    icons: { icon: rack.src },
     description:
         'Alma Julio Isnansyah adalah seorang mahasiswa Teknik Informatika di ITERA dengan minat pada pengembangan perangkat lunak, khususnya di bidang backend development dan web development. Alma memiliki pengalaman membangun aplikasi web yang scalable dengan menggunakan teknologi seperti Laravel dan React.js, serta memiliki antusiasme untuk berkontribusi dalam solusi digital inovatif.',
 };

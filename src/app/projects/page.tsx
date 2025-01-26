@@ -1,13 +1,13 @@
 import { Container } from '@/components/Container';
 import { Heading } from '@/components/Heading';
-import { Highlight } from '@/components/Highlight';
-import { Paragraph } from '@/components/Paragraph';
 import { Products } from '@/components/Products';
 import { Metadata } from 'next';
-import Image from 'next/image';
+import rack from 'public/images/rack.ico';
 
 export const metadata: Metadata = {
-    title: 'Projects | John Doe',
+    title: 'Projects | Alma Julio',
+    icons: { icon: rack.src },
+
     description:
         'Alma Julio Isnansyah adalah seorang mahasiswa Teknik Informatika di ITERA dengan minat pada pengembangan perangkat lunak, khususnya di bidang backend development dan web development. Alma memiliki pengalaman membangun aplikasi web yang scalable dengan menggunakan teknologi seperti Laravel dan React.js, serta memiliki antusiasme untuk berkontribusi dalam solusi digital inovatif.',
 };
