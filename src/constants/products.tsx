@@ -128,8 +128,9 @@ export const products = [
                     Developing <strong>Rent Ur Style</strong> allowed me to combine advanced backend
                     and frontend technologies to create a functional and user-friendly e-commerce
                     platform. The integration with WhatsApp API enhances communication, ensuring
-                    quick responses to customer inquiries. If you're looking to explore a modern and
-                    feature-rich e-commerce solution, check out the repository for more details.
+                    quick responses to customer inquiries. If you&apos;re looking to explore a
+                    modern and feature-rich e-commerce solution, check out the repository for more
+                    details.
                 </p>
             </div>
         ),
@@ -195,8 +196,8 @@ export const products = [
                     development method to ensure every feature worked as expected. This process
                     involved HTML validation, applying responsive design through CSS media queries,
                     and integrating animations and functionalities using vanilla JavaScript. The
-                    result is a website that not only meets the client's needs but also adds value
-                    through a modern design and optimal performance.
+                    result is a website that not only meets the client&apos;s needs but also adds
+                    value through a modern design and optimal performance.
                 </p>
             </div>
         ),
@@ -232,9 +233,9 @@ export const products = [
                 </p>
                 <p>
                     Developing this game allowed me to deepen my understanding of game mechanics and
-                    Python programming. It was a rewarding experience to see Yakui's story come to
-                    life through code, art, and gameplay. If you’re ready to help Yakui escape the
-                    labyrinth and uncover the secrets within, give the game a try!
+                    Python programming. It was a rewarding experience to see Yakui&apos;s story come
+                    to life through code, art, and gameplay. If you&apos;re ready to help Yakui
+                    escape the labyrinth and uncover the secrets within, give the game a try!
                 </p>
             </div>
         ),
@@ -268,17 +269,17 @@ export const products = [
                 <p>
                     The project features minimal styling, prioritizing functionality and simplicity.
                     Users can add, edit, delete, and view articles and categories through an
-                    intuitive interface. The backend leverages Laravel's powerful Eloquent ORM for
-                    database interactions, ensuring smooth and efficient data management. Although
-                    the styling is basic, the structure is designed to allow easy customization and
-                    expansion.
+                    intuitive interface. The backend leverages Laravel&apos;s powerful Eloquent ORM
+                    for database interactions, ensuring smooth and efficient data management.
+                    Although the styling is basic, the structure is designed to allow easy
+                    customization and expansion.
                 </p>
                 <p>
-                    Developing this project helped me gain deeper insights into Laravel's MVC
+                    Developing this project helped me gain deeper insights into Laravel&apos;s MVC
                     architecture, routing, database migrations, and role management. It serves as a
                     foundation for anyone looking to create a CMS or learn the basics of Laravel
-                    development. If you’re interested in a straightforward yet functional Laravel
-                    project, feel free to explore the repository and build upon it.
+                    development. If you&apos;re interested in a straightforward yet functional
+                    Laravel project, feel free to explore the repository and build upon it.
                 </p>
             </div>
         ),
