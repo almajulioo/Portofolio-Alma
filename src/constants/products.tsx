@@ -134,8 +134,8 @@ export const products = [
                     <strong>GDScript</strong> for scripting. The development process focused on
                     creating immersive gameplay with challenging combat mechanics, engaging puzzles,
                     and an atmospheric environment inspired by the rich culture and mythology of
-                    Sumatra. Each boss fight is uniquely designed to test the player's skills and
-                    strategy, making the journey both rewarding and memorable.
+                    Sumatra. Each boss fight is uniquely designed to test the player&apos;s skills
+                    and strategy, making the journey both rewarding and memorable.
                 </p>
                 <p>
                     Developing <strong>Legenda Tiga Raja</strong> allowed me to explore advanced
@@ -249,8 +249,8 @@ export const products = [
                     Laravel, admin interface creation using Filament, and responsive design with
                     TailwindCSS. The QR code integration ensures a seamless and secure attendance
                     process, while the downloadable and filterable dashboard makes data management
-                    straightforward and efficient. If you’re looking for an innovative attendance
-                    solution, check out the repository for more details.
+                    straightforward and efficient. If you&apos;re looking for an innovative
+                    attendance solution, check out the repository for more details.
                 </p>
             </div>
         ),
