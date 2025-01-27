@@ -23,6 +23,11 @@ import sukamargaThumbnail from 'public/images/sukamarga-thumbnail.png';
 import sukamarga1 from 'public/images/sukamarga-1.png';
 import sukamarga2 from 'public/images/sukamarga-2.png';
 import sukamarga3 from 'public/images/sukamarga-3.png';
+import legendatigaraja1 from 'public/images/legendatigaraja-1.png';
+import legendatigaraja2 from 'public/images/legendatigaraja-2.png';
+import legendatigaraja3 from 'public/images/legendatigaraja-3.png';
+import legendatigaraja4 from 'public/images/legendatigaraja-4.png';
+import legendatigaraja5 from 'public/images/legendatigaraja-5.png';
 
 export const products = [
     {
@@ -93,6 +98,85 @@ export const products = [
                     create a platform that provides a seamless user experience and effectively
                     promotes the richness of Desa Sukamarga’s tourism and UMKM offerings. Feel free
                     to explore the website and discover the beauty of Sukamarga!
+                </p>
+            </div>
+        ),
+    },
+    {
+        href: 'https://github.com/almajulioo/RentUrStyle-Backend',
+        title: 'Rent Ur Style',
+        description:
+            'An e-commerce website for renting event clothing, built with Laravel as the backend, React.js as the frontend, and integrated with WhatsApp unofficial API.',
+        thumbnail: renturstyleThumbnail,
+        images: [renturstyle1, renturstyle2, renturstyle3],
+        stack: ['Laravel', 'React.js', 'REST API'],
+        slug: 'rent-ur-style',
+        content: (
+            <div>
+                <p>
+                    <strong>Rent Ur Style</strong> is an e-commerce website designed to provide a
+                    seamless experience for renting event clothing for every special occasion.
+                    Customers can explore a wide range of fashionable outfits without the commitment
+                    of purchasing, allowing them to enjoy luxury styles at an affordable cost.
+                </p>
+                <p>
+                    This project was developed with a robust backend using Laravel and a dynamic
+                    frontend powered by React.js. The website utilizes a REST API for smooth
+                    communication between the frontend and backend. Additionally, the platform is
+                    integrated with the WhatsApp unofficial API to send real-time notifications to
+                    administrators whenever a customer makes a purchase. The system supports CRUD
+                    (Create, Read, Update, Delete) operations for managing products, categories, and
+                    subcategories. It also includes a dedicated admin user for managing the platform
+                    efficiently.
+                </p>
+                <p>
+                    Developing <strong>Rent Ur Style</strong> allowed me to combine advanced backend
+                    and frontend technologies to create a functional and user-friendly e-commerce
+                    platform. The integration with WhatsApp API enhances communication, ensuring
+                    quick responses to customer inquiries. If you&apos;re looking to explore a
+                    modern and feature-rich e-commerce solution, check out the repository for more
+                    details.
+                </p>
+            </div>
+        ),
+    },
+    {
+        href: 'https://ashokatatangs.itch.io/legenda-3-raja',
+        title: 'Game Legenda Tiga Raja',
+        description:
+            'Legenda Tiga Raja is an action-adventure game developed using Godot and GDScript, where players take on the role of a descendant of ancient warriors to defeat the cursed kings and restore balance to the world.',
+        thumbnail: legendatigaraja1,
+        images: [
+            legendatigaraja1,
+            legendatigaraja2,
+            legendatigaraja3,
+            legendatigaraja4,
+            legendatigaraja5,
+        ],
+        stack: ['Godot', 'GDScript'],
+        slug: 'legenda-tiga-raja',
+        content: (
+            <div>
+                <p>
+                    <strong>Legenda Tiga Raja</strong> is an action-adventure game that takes
+                    players to the mystical island of Sumatra. In the game, players assume the role
+                    of a descendant of ancient warriors tasked with defeating the cursed kings to
+                    free the spirits of nature and restore the balance of the world.
+                </p>
+                <p>
+                    This game was developed using <strong>Godot</strong> as the game engine and{' '}
+                    <strong>GDScript</strong> for scripting. The development process focused on
+                    creating immersive gameplay with challenging combat mechanics, engaging puzzles,
+                    and an atmospheric environment inspired by the rich culture and mythology of
+                    Sumatra. Each boss fight is uniquely designed to test the player's skills and
+                    strategy, making the journey both rewarding and memorable.
+                </p>
+                <p>
+                    Developing <strong>Legenda Tiga Raja</strong> allowed me to explore advanced
+                    game development concepts, including character animation, level design, and game
+                    optimization. The project showcases the versatility of Godot and my ability to
+                    craft a compelling game experience from concept to completion. If you are
+                    intrigued by epic tales and thrilling gameplay, this game is for you.
                 </p>
             </div>
         ),
