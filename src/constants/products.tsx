@@ -31,43 +31,11 @@ import legendatigaraja5 from 'public/images/legendatigaraja-5.png';
 import laportoko1 from 'public/images/laportoko-1.png';
 import laportoko2 from 'public/images/laportoko-2.png';
 import laportoko3 from 'public/images/laportoko-3.png';
+import whickerbutler1 from 'public/images/whickerbutler-1.png';
+import whickerbutler2 from 'public/images/whickerbutler-2.png';
+import whickerbutler3 from 'public/images/whickerbutler-3.png';
 
 export const products = [
-    {
-        href: 'https://github.com/almajulioo/pemilihan',
-        title: 'Elections',
-        description:
-            'A web application for managing elections, including adding new elections, candidates, and their descriptions. Built using Laravel and TailwindCSS.',
-        thumbnail: electionThumbnail,
-        images: [election1, election2, election3],
-        stack: ['Laravel', 'TailwindCSS'],
-        slug: 'elections',
-        content: (
-            <div>
-                <p>
-                    <strong>Elections</strong> is a web application designed to manage elections
-                    effectively. This platform allows administrators to create new elections, add
-                    candidates, and include detailed descriptions for each candidate. The goal is to
-                    provide a streamlined and efficient way to manage election processes in various
-                    settings.
-                </p>
-                <p>
-                    The project was developed using Laravel for the backend to handle database
-                    interactions, authentication, and logic. TailwindCSS was utilized for styling to
-                    ensure a modern and responsive user interface. The system supports CRUD (Create,
-                    Read, Update, Delete) operations for elections and candidates, making it highly
-                    flexible and user-friendly.
-                </p>
-                <p>
-                    This project helped me enhance my skills in both backend development with
-                    Laravel and frontend styling with TailwindCSS. It serves as a comprehensive
-                    example of combining powerful tools to build a functional and aesthetically
-                    pleasing application. Feel free to explore the repository for more details and
-                    potential use cases.
-                </p>
-            </div>
-        ),
-    },
     {
         href: 'https://www.wisatasukamarga.my.id/',
         title: 'Wisata Suka Marga',
@@ -105,7 +73,41 @@ export const products = [
             </div>
         ),
     },
-
+    {
+        href: 'https://github.com/almajulioo/pemilihan',
+        title: 'Elections',
+        description:
+            'A web application for managing elections, including adding new elections, candidates, and their descriptions. Built using Laravel and TailwindCSS.',
+        thumbnail: electionThumbnail,
+        images: [election1, election2, election3],
+        stack: ['Laravel', 'TailwindCSS'],
+        slug: 'elections',
+        content: (
+            <div>
+                <p>
+                    <strong>Elections</strong> is a web application designed to manage elections
+                    effectively. This platform allows administrators to create new elections, add
+                    candidates, and include detailed descriptions for each candidate. The goal is to
+                    provide a streamlined and efficient way to manage election processes in various
+                    settings.
+                </p>
+                <p>
+                    The project was developed using Laravel for the backend to handle database
+                    interactions, authentication, and logic. TailwindCSS was utilized for styling to
+                    ensure a modern and responsive user interface. The system supports CRUD (Create,
+                    Read, Update, Delete) operations for elections and candidates, making it highly
+                    flexible and user-friendly.
+                </p>
+                <p>
+                    This project helped me enhance my skills in both backend development with
+                    Laravel and frontend styling with TailwindCSS. It serves as a comprehensive
+                    example of combining powerful tools to build a functional and aesthetically
+                    pleasing application. Feel free to explore the repository for more details and
+                    potential use cases.
+                </p>
+            </div>
+        ),
+    },
     {
         href: 'https://ashokatatangs.itch.io/legenda-3-raja',
         title: 'Game Legenda Tiga Raja',
@@ -148,40 +150,6 @@ export const products = [
         ),
     },
     {
-        href: '',
-        title: 'Website Lapor Toko',
-        description:
-            'Lapor Toko is a website built to report fraudulent stores on Instagram, developed using Django, Python, HTML, and CSS.',
-        thumbnail: laportoko1,
-        images: [laportoko1, laportoko2, laportoko3],
-        stack: ['Django', 'Python', 'HTML', 'CSS'],
-        slug: 'lapor-toko',
-        content: (
-            <div>
-                <p>
-                    <strong>Website Lapor Toko</strong> is a platform designed to help users report
-                    fraudulent stores found on social media, particularly Instagram. The website
-                    allows users to submit detailed reports about these stores to raise awareness
-                    and protect others from scams.
-                </p>
-                <p>
-                    I worked as both a frontend and backend developer for this project, leveraging{' '}
-                    <strong>Django</strong> and <strong>Python</strong> for the backend and{' '}
-                    <strong>HTML</strong> and <strong>CSS</strong> for the frontend. The website was
-                    designed to be intuitive and user-friendly, ensuring that users can easily
-                    submit reports and access the database of reported stores. It also includes
-                    features such as report moderation and categorization.
-                </p>
-                <p>
-                    Developing <strong>Lapor Toko</strong> helped me deepen my skills in full-stack
-                    web development, including database integration, routing, and frontend design.
-                    This project is a testament to the power of technology in promoting consumer
-                    protection and fostering safer online spaces.
-                </p>
-            </div>
-        ),
-    },
-    {
         href: 'https://github.com/almajulioo/RentUrStyle-Backend',
         title: 'Rent Ur Style',
         description:
@@ -215,6 +183,76 @@ export const products = [
                     quick responses to customer inquiries. If you&apos;re looking to explore a
                     modern and feature-rich e-commerce solution, check out the repository for more
                     details.
+                </p>
+            </div>
+        ),
+    },
+    {
+        href: 'https://whickerbutler.my.id/',
+        title: 'Whicker Butler',
+        description:
+            'Whicker Butler is a VTuber agency website featuring a lineup of unique butlers with special powers and cheerful personalities, developed using React.js and TailwindCSS with Google Fonts integration.',
+        thumbnail: whickerbutler2,
+        images: [whickerbutler1, whickerbutler2, whickerbutler3],
+        stack: ['React.js', 'TailwindCSS'],
+        slug: 'whicker-butler',
+        content: (
+            <div>
+                <p>
+                    <strong>Whicker Butler</strong> is a unique VTuber agency website showcasing a
+                    lineup of charismatic butlers. Each butler possesses special powers and a
+                    cheerful personality designed to uplift and entertain viewers in any situation.
+                    The website serves as a hub for fans to explore the talents, learn more about
+                    their characters, and connect with their favorite butlers.
+                </p>
+                <p>
+                    I developed this website using <strong>React.js</strong> for the frontend
+                    framework and <strong>TailwindCSS</strong> for a modern and responsive design.
+                    Google Fonts were integrated to enhance the visual appeal, ensuring a
+                    professional yet approachable aesthetic that reflects the brand identity of
+                    Whicker Butler. The layout is fully responsive, making the experience seamless
+                    across devices.
+                </p>
+                <p>
+                    Working on <strong>Whicker Butler</strong> allowed me to refine my skills in
+                    building dynamic web interfaces, implementing responsive designs, and using
+                    Google Fonts to create a cohesive and visually pleasing user experience. This
+                    project embodies the synergy of design and functionality, creating an engaging
+                    platform for both fans and VTuber enthusiasts.
+                </p>
+            </div>
+        ),
+    },
+    {
+        href: '',
+        title: 'Website Lapor Toko',
+        description:
+            'Lapor Toko is a website built to report fraudulent stores on Instagram, developed using Django, Python, HTML, and CSS.',
+        thumbnail: laportoko1,
+        images: [laportoko1, laportoko2, laportoko3],
+        stack: ['Django', 'Python', 'HTML', 'CSS'],
+        slug: 'lapor-toko',
+        content: (
+            <div>
+                <p>
+                    <strong>Website Lapor Toko</strong> is a platform designed to help users report
+                    fraudulent stores found on social media, particularly Instagram. The website
+                    allows users to submit detailed reports about these stores to raise awareness
+                    and protect others from scams.
+                </p>
+                <p>
+                    I worked as both a frontend and backend developer for this project, leveraging{' '}
+                    <strong>Django</strong> and <strong>Python</strong> for the backend and{' '}
+                    <strong>HTML</strong> and <strong>CSS</strong> for the frontend. The website was
+                    designed to be intuitive and user-friendly, ensuring that users can easily
+                    submit reports and access the database of reported stores. It also includes
+                    features such as report moderation and categorization.
+                </p>
+                <p>
+                    Developing <strong>Lapor Toko</strong> helped me deepen my skills in full-stack
+                    web development, including database integration, routing, and frontend design.
+                    This project is a testament to the power of technology in promoting consumer
+                    protection and fostering safer online spaces.
                 </p>
             </div>
         ),
