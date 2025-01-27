@@ -28,6 +28,9 @@ import legendatigaraja2 from 'public/images/legendatigaraja-2.png';
 import legendatigaraja3 from 'public/images/legendatigaraja-3.png';
 import legendatigaraja4 from 'public/images/legendatigaraja-4.png';
 import legendatigaraja5 from 'public/images/legendatigaraja-5.png';
+import laportoko1 from 'public/images/laportoko-1.png';
+import laportoko2 from 'public/images/laportoko-2.png';
+import laportoko3 from 'public/images/laportoko-3.png';
 
 export const products = [
     {
@@ -102,44 +105,7 @@ export const products = [
             </div>
         ),
     },
-    {
-        href: 'https://github.com/almajulioo/RentUrStyle-Backend',
-        title: 'Rent Ur Style',
-        description:
-            'An e-commerce website for renting event clothing, built with Laravel as the backend, React.js as the frontend, and integrated with WhatsApp unofficial API.',
-        thumbnail: renturstyleThumbnail,
-        images: [renturstyle1, renturstyle2, renturstyle3],
-        stack: ['Laravel', 'React.js', 'REST API'],
-        slug: 'rent-ur-style',
-        content: (
-            <div>
-                <p>
-                    <strong>Rent Ur Style</strong> is an e-commerce website designed to provide a
-                    seamless experience for renting event clothing for every special occasion.
-                    Customers can explore a wide range of fashionable outfits without the commitment
-                    of purchasing, allowing them to enjoy luxury styles at an affordable cost.
-                </p>
-                <p>
-                    This project was developed with a robust backend using Laravel and a dynamic
-                    frontend powered by React.js. The website utilizes a REST API for smooth
-                    communication between the frontend and backend. Additionally, the platform is
-                    integrated with the WhatsApp unofficial API to send real-time notifications to
-                    administrators whenever a customer makes a purchase. The system supports CRUD
-                    (Create, Read, Update, Delete) operations for managing products, categories, and
-                    subcategories. It also includes a dedicated admin user for managing the platform
-                    efficiently.
-                </p>
-                <p>
-                    Developing <strong>Rent Ur Style</strong> allowed me to combine advanced backend
-                    and frontend technologies to create a functional and user-friendly e-commerce
-                    platform. The integration with WhatsApp API enhances communication, ensuring
-                    quick responses to customer inquiries. If you&apos;re looking to explore a
-                    modern and feature-rich e-commerce solution, check out the repository for more
-                    details.
-                </p>
-            </div>
-        ),
-    },
+
     {
         href: 'https://ashokatatangs.itch.io/legenda-3-raja',
         title: 'Game Legenda Tiga Raja',
@@ -177,6 +143,40 @@ export const products = [
                     optimization. The project showcases the versatility of Godot and my ability to
                     craft a compelling game experience from concept to completion. If you are
                     intrigued by epic tales and thrilling gameplay, this game is for you.
+                </p>
+            </div>
+        ),
+    },
+    {
+        href: '',
+        title: 'Website Lapor Toko',
+        description:
+            'Lapor Toko is a website built to report fraudulent stores on Instagram, developed using Django, Python, HTML, and CSS.',
+        thumbnail: laportoko1,
+        images: [laportoko1, laportoko2, laportoko3],
+        stack: ['Django', 'Python', 'HTML', 'CSS'],
+        slug: 'lapor-toko',
+        content: (
+            <div>
+                <p>
+                    <strong>Website Lapor Toko</strong> is a platform designed to help users report
+                    fraudulent stores found on social media, particularly Instagram. The website
+                    allows users to submit detailed reports about these stores to raise awareness
+                    and protect others from scams.
+                </p>
+                <p>
+                    I worked as both a frontend and backend developer for this project, leveraging{' '}
+                    <strong>Django</strong> and <strong>Python</strong> for the backend and{' '}
+                    <strong>HTML</strong> and <strong>CSS</strong> for the frontend. The website was
+                    designed to be intuitive and user-friendly, ensuring that users can easily
+                    submit reports and access the database of reported stores. It also includes
+                    features such as report moderation and categorization.
+                </p>
+                <p>
+                    Developing <strong>Lapor Toko</strong> helped me deepen my skills in full-stack
+                    web development, including database integration, routing, and frontend design.
+                    This project is a testament to the power of technology in promoting consumer
+                    protection and fostering safer online spaces.
                 </p>
             </div>
         ),
