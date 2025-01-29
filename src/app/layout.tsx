@@ -21,6 +21,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
+            <head>
+                <meta
+                    name="google-site-verification"
+                    content="JP5HhKiR5WlS1D-bzKpsPJqcriQyyWlZJhMFuvmdp7s"
+                />
+            </head>
             <body
                 className={twMerge(
                     inter.className,
