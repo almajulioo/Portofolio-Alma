@@ -1,62 +1,48 @@
 export const timeline = [
-  {
-    company: "Amazon",
-    title: "Senior Software Engineer",
-    date: "2022 - Present",
-    description: "Building the future of e-commerce",
-    responsibilities: [
-      "Developed a new feature that improves the shopping experience",
-      "Implemented a recommendation algorithm to suggest products",
-      "Enhanced the checkout process making it more intuitive and user-friendly",
-      "Built a feature for tracking packages in real-time",
-    ],
-  },
-  {
-    company: "Google",
-    title: "Senior Software Engineer",
-    date: "2021 - 2022",
-    description: "Building the future of search",
-    responsibilities: [
-      "Improved the search algorithm to provide more relevant results",
-      "Developed a new feature that personalizes search results",
-      "Enhanced the search functionality making it more intuitive and user-friendly",
-      "Implemented a feature for tracking search history",
-    ],
-  },
-  {
-    company: "Facebook",
-    title: "Senior Software Engineer",
-    date: "2020 - 2021",
-    description: "Building the future of social networking",
-    responsibilities: [
-      "Developed a new feature that improves the user experience",
-      "Implemented a recommendation algorithm to suggest friends",
-      "Enhanced the news feed algorithm to show more relevant posts",
-      "Built a feature for tracking user activity",
-    ],
-  },
-  {
-    company: "Apple",
-    title: "Senior Software Engineer",
-    date: "2019 - 2020",
-    description: "Building the future of technology",
-    responsibilities: [
-      "Improved the iOS operating system to enhance user experience",
-      "Developed a new feature that personalizes user interface",
-      "Enhanced the app store algorithm to suggest more relevant apps",
-      "Implemented a feature for tracking app usage",
-    ],
-  },
-  {
-    company: "Microsoft",
-    title: "Senior Software Engineer",
-    date: "2018 - 2019",
-    description: "Building the future of software",
-    responsibilities: [
-      "Improved the Windows operating system to enhance user experience",
-      "Developed a new feature that personalizes user interface",
-      "Enhanced the office suite to improve productivity",
-      "Implemented a feature for tracking software usage",
-    ],
-  },
+    {
+        company: 'Freelancer',
+        title: 'Web Developer',
+        date: '2022 - Present',
+        description: 'Worked on various web development projects for clients.',
+        responsibilities: [
+            'Developed responsive and dynamic websites using HTML, CSS, and JavaScript.',
+            'Built full-stack web applications using Laravel and React.js.',
+            'Collaborated with clients to gather requirements and deliver tailored solutions.',
+            'Implemented REST APIs for seamless communication between frontend and backend.',
+            'Optimized website performance and ensured cross-browser compatibility.',
+        ],
+    },
+    {
+        company: 'Himpunan Mahasiswa Informatika (HMIF)',
+        title: 'Technopreneur Staff',
+        date: 'June 2024 - December 2024',
+        description: 'Contributed to technical and professional projects within the organization.',
+        responsibilities: [
+            "Developed the 'Website Pemilihan' system to manage elections within the organization.",
+            "Repaired and improved the organization's website, enhancing its functionality and design.",
+            'Collaborated with team members to deliver projects for internal and client needs.',
+        ],
+    },
+    {
+        company: 'Program Pengenalan Lingkungan Kampus (PPLK)',
+        title: 'Backend Developer',
+        date: 'August 2024',
+        description: 'Developed and maintained the backend system for PPLK 2024.',
+        responsibilities: [
+            'Built the backend using Laravel framework and connected it to a React.js frontend.',
+            'Developed a system that managed over 5000 users with optimal performance.',
+            'Collaborated with a team to ensure seamless integration between frontend and backend.',
+        ],
+    },
+    {
+        company: 'Himpunan Mahasiswa Informatika (HMIF)',
+        title: 'CSS Instructor for Organizational Training (LDOP)',
+        date: 'November 2024',
+        description: 'Provided training on CSS basics and advanced layout techniques.',
+        responsibilities: [
+            'Delivered a 3-hour session on CSS selectors, margin, padding, and layout systems like Flexbox and Grid.',
+            'Helped participants understand and apply modern CSS practices in web development.',
+            'Supported the organization by enhancing technical skills among members.',
+        ],
+    },
 ];
