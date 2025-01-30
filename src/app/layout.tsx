@@ -16,12 +16,27 @@ export const metadata: Metadata = {
     icons: { icon: rack.src },
     description:
         'Alma Julio Isnansyah adalah seorang mahasiswa Teknik Informatika di ITERA dengan minat pada pengembangan perangkat lunak, khususnya di bidang backend development dan web development. Alma memiliki pengalaman membangun aplikasi web yang scalable dengan menggunakan teknologi seperti Laravel dan React.js, serta memiliki antusiasme untuk berkontribusi dalam solusi digital inovatif.',
+    openGraph: {
+        title: 'Alma Julio - Backend Developer',
+        description:
+            'Alma Julio Isnansyah adalah seorang mahasiswa Teknik Informatika di ITERA dengan minat pada pengembangan perangkat lunak, khususnya di bidang backend development dan web development. Alma memiliki pengalaman membangun aplikasi web yang scalable dengan menggunakan teknologi seperti Laravel dan React.js, serta memiliki antusiasme untuk berkontribusi dalam solusi digital inovatif.',
+        images: [
+            {
+                url: '/favicon.ico',
+                width: 1200,
+                height: 630,
+                alt: 'Alma Julio - Backend Developer',
+            },
+        ],
+    },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
             <head>
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="shortcut icon" href="/favicon.ico" />
                 <meta
                     name="google-site-verification"
                     content="JP5HhKiR5WlS1D-bzKpsPJqcriQyyWlZJhMFuvmdp7s"
