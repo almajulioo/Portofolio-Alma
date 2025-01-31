@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 import { twMerge } from 'tailwind-merge';
 import { Footer } from '@/components/Footer';
 import rack from 'public/images/rack.ico';
+import Script from 'next/script';
 
 const inter = Inter({
     subsets: ['latin'],
@@ -41,6 +42,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     name="google-site-verification"
                     content="JP5HhKiR5WlS1D-bzKpsPJqcriQyyWlZJhMFuvmdp7s"
                 />
+                <Script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-3ZSBYLS09N"></Script>
+                <Script id="google-analytics">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-3ZSBYLS09N');
+                    `}
+                </Script>
             </head>
             <body
                 className={twMerge(
