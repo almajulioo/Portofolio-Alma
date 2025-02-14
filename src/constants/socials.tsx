@@ -1,4 +1,9 @@
-import { IconBrandLinkedin, IconBrandInstagram, IconBrandGithub } from '@tabler/icons-react';
+import {
+    IconBrandLinkedin,
+    IconBrandInstagram,
+    IconBrandGithub,
+    IconBrandGmail,
+} from '@tabler/icons-react';
 
 export const socials = [
     // {
@@ -10,6 +15,11 @@ export const socials = [
         href: 'https://linkedin.com/in/alma-julio',
         label: 'LinkedIn',
         icon: IconBrandLinkedin,
+    },
+    {
+        href: 'mailto:almajulio04@gmail.com',
+        label: 'Gmail',
+        icon: IconBrandGmail,
     },
     {
         href: 'https://github.com/almajulioo',
