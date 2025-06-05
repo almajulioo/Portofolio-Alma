@@ -34,8 +34,47 @@ import laportoko3 from 'public/images/laportoko-3.png';
 import whickerbutler1 from 'public/images/whickerbutler-1.png';
 import whickerbutler2 from 'public/images/whickerbutler-2.png';
 import whickerbutler3 from 'public/images/whickerbutler-3.png';
+import newwhickerbutler1 from 'public/images/new-whickerbutler-1.jpg';
+import newwhickerbutler2 from 'public/images/new-whickerbutler-2.jpg';
+import newwhickerbutler3 from 'public/images/new-whickerbutler-3.jpg';
+import newwhickerbutler4 from 'public/images/new-whickerbutler-4.jpg';
 
 export const products = [
+    {
+        href: 'https://whickerbutler.my.id',
+        title: 'New Whicker Butler',
+        description:
+            'The revamped Whicker Butler VTuber agency website, featuring a new UI, an integrated email form for direct contact, and live upcoming stream data from the YouTube Data API v3.',
+        thumbnail: newwhickerbutler4,
+        images: [newwhickerbutler3, newwhickerbutler2, newwhickerbutler1],
+        stack: ['React.js', 'TailwindCSS', 'Node.js', 'YouTube Data API v3'],
+        slug: 'new-whicker-butler',
+        content: (
+            <div>
+                <p>
+                    The <strong>New Whicker Butler</strong> project is a complete overhaul of the
+                    original VTuber agency website, introducing a refreshed and more interactive
+                    user interface. This version elevates the platform by integrating new features
+                    aimed at enhancing user engagement and providing real-time information without a
+                    traditional backend.
+                </p>
+                <p>
+                    Built with <strong>React.js</strong> and styled with{' '}
+                    <strong>TailwindCSS</strong>, the new site features significant enhancements. A
+                    key addition is the contact form, which uses the <strong>EmailJS</strong> API to
+                    allow users to send messages directly from the client-side, streamlining
+                    communication efficiently.
+                </p>
+                <p>
+                    Furthermore, the site now dynamically fetches and displays the latest upcoming
+                    streams from the talents by integrating the <strong>YouTube Data API v3</strong>
+                    . This ensures that fans always have the most current information on scheduled
+                    content. This project was a great opportunity to build a feature-rich
+                    application using modern frontend technologies and third-party APIs.
+                </p>
+            </div>
+        ),
+    },
     {
         href: 'https://www.wisatasukamarga.my.id/',
         title: 'Wisata Suka Marga',
@@ -188,7 +227,7 @@ export const products = [
         ),
     },
     {
-        href: 'https://whickerbutler.my.id/',
+        href: 'https://whickerbutler.my.id/old',
         title: 'Whicker Butler',
         description:
             'Whicker Butler is a VTuber agency website featuring a lineup of unique butlers with special powers and cheerful personalities, developed using React.js and TailwindCSS with Google Fonts integration.',
