@@ -347,7 +347,7 @@ export const products = [
                 One of my early projects during high school was the development of the GoGadai website. I used <b>HTML</b> to structure the page semantically, <b>CSS</b> to design an attractive and responsive interface, and <b>JavaScript</b> to add interactive elements to the website. I ensured that every element was designed with attention to detail to create an intuitive and enjoyable user experience. Additionally, the website was optimized to perform well on various devices, including desktops, tablets, and smartphones.
               </p>
               <p>
-                This project was completed using a systematic approach, starting from client needs analysis to implementation and testing. I employed an <b>iterative development method</b> to ensure every feature worked as expected. This process involved HTML validation, applying responsive design through CSS media queries, and integrating animations and functionalities using vanilla JavaScript. The result is a website that not only meets the client's needs but also adds value through a modern design and optimal performance.
+                This project was completed using a systematic approach, starting from client needs analysis to implementation and testing. I employed an <b>iterative development method</b> to ensure every feature worked as expected. This process involved HTML validation, applying responsive design through CSS media queries, and integrating animations and functionalities using vanilla JavaScript. The result is a website that not only meets the client&apos;s needs but also adds value through a modern design and optimal performance.
               </p>
             </div>
         ),
