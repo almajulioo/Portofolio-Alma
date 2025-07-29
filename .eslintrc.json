@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Disable the rule that flags unescaped HTML entities in React components
+    "react/no-unescaped-entities": "off",
+    // Disable the rule that warns about custom fonts imported directly in pages
+    "@next/next/no-page-custom-font": "off"
+  }
 }
