@@ -2,7 +2,7 @@
 
 Selamat datang di repositori kode sumber untuk website portofolio pribadi saya. Website ini dirancang untuk menampilkan proyek-proyek yang pernah saya kerjakan, keahlian saya sebagai seorang backend developer, dan cara untuk menghubungi saya.
 
-**🔗 Lihat Live Website: [almajulin.works](https://almajulin.works)**
+**🔗 Lihat Live Website: [almajulioo.works](https://almajulin.works)**
 
 ## ✨ Fitur Utama
 
@@ -18,9 +18,9 @@ Selamat datang di repositori kode sumber untuk website portofolio pribadi saya. 
 
 Berdasarkan informasi yang Anda berikan, berikut adalah teknologi yang digunakan untuk membangun dan menjalankan website ini:
 
-- **Framework:** **Next.js** `13.4.19` (dibangun di atas **React**).
+- **Framework:** **Next.js**.
 - **Styling:** **Tailwind CSS**.
-- **Platform & Deployment:** Di-hosting di **Vercel** (PaaS).
+- **Platform & Deployment:** Di-hosting di **Vercel**.
 - **Analytics:** **Google Analytics (GA4)** dan **Google Tag Manager**.
 
 ---
